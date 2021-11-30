@@ -1,0 +1,17 @@
+Collecting nbformat
+  Using cached https://files.pythonhosted.org/packages/e7/c7/dd50978c637a7af8234909277c4e7ec1b71310c13fb3135f3c8f5b6e045f/nbformat-5.1.3-py3-none-any.whl
+Requirement already satisfied: ipython-genutils in c:\users\prm\appdata\local\programs\python\python37-32\lib\site-packages (from nbformat) (0.2.0)
+Requirement already satisfied: jupyter-core in c:\users\prm\appdata\local\programs\python\python37-32\lib\site-packages (from nbformat) (4.9.1)
+Requirement already satisfied: traitlets>=4.1 in c:\users\prm\appdata\local\programs\python\python37-32\lib\site-packages (from nbformat) (5.1.1)
+Collecting jsonschema!=2.5.0,>=2.4 (from nbformat)
+  Downloading https://files.pythonhosted.org/packages/4a/25/176c2fb5f063bea33b395cae529a5b9419e1a3d27a89505b96c79c9032c4/jsonschema-4.1.2-py3-none-any.whl (69kB)
+Requirement already satisfied: pywin32>=1.0; sys_platform == "win32" and platform_python_implementation != "PyPy" in c:\users\prm\appdata\local\programs\python\python37-32\lib\site-packages (from jupyter-core->nbformat) (302)
+Collecting attrs>=17.4.0 (from jsonschema!=2.5.0,>=2.4->nbformat)
+  Using cached https://files.pythonhosted.org/packages/20/a9/ba6f1cd1a1517ff022b35acd6a7e4246371dfab08b8e42b829b6d07913cc/attrs-21.2.0-py2.py3-none-any.whl
+Requirement already satisfied: importlib-metadata; python_version < "3.8" in c:\users\prm\appdata\local\programs\python\python37-32\lib\site-packages (from jsonschema!=2.5.0,>=2.4->nbformat) (4.8.1)
+Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0 (from jsonschema!=2.5.0,>=2.4->nbformat)
+  Downloading https://files.pythonhosted.org/packages/5d/f3/cf976c45323aa74f60632bb7b7d19799ece4aead7ed9b8c6dd6266e68a00/pyrsistent-0.18.0-cp37-cp37m-win32.whl (59kB)
+Requirement already satisfied: typing-extensions>=3.6.4; python_version < "3.8" in c:\users\prm\appdata\local\programs\python\python37-32\lib\site-packages (from importlib-metadata; python_version < "3.8"->jsonschema!=2.5.0,>=2.4->nbformat) (3.10.0.2)
+Requirement already satisfied: zipp>=0.5 in c:\users\prm\appdata\local\programs\python\python37-32\lib\site-packages (from importlib-metadata; python_version < "3.8"->jsonschema!=2.5.0,>=2.4->nbformat) (3.6.0)
+Installing collected packages: attrs, pyrsistent, jsonschema, nbformat
+Successfully installed attrs-21.2.0 jsonschema-4.1.2 nbformat-5.1.3 pyrsistent-0.18.0
